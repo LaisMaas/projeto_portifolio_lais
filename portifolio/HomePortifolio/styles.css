@@ -1,0 +1,606 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    /*background-color: rgb(12, 11, 11);*/
+}
+
+.paginaI-inteira {
+    
+    width: 1118px;
+    height: 3800px;
+    margin-left: 20%;
+    background-color: rgb(253, 253, 255);   
+}
+
+
+
+/*-----cabecalho do site-----*/
+
+.cabecalho {
+    background-color:rgb(253, 253, 255);
+    width: 1000px;
+    height: 420px;
+}
+
+.lado-esquerdo {
+    background-color: rgb(253, 253, 255);;
+    width: 750px;
+    height: 420px;
+    position: absolute; 
+  
+}
+
+.lado-direito {
+    background-color: rgb(29, 28, 28);
+    width: 250px;
+    height: 420px;
+    position: absolute;
+    left: 1250px;
+    
+   
+}
+
+.menu {    
+    width: 700px;
+    height: 35px;
+    position: absolute;
+    left: 100px;
+    padding-top: 12px;
+}
+
+.menu a {  
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: crimson;
+
+
+}
+
+.sobre-mim {
+    width: 700px;
+    height: 420px;
+    text-align: center;
+    left: 100px;
+    position: absolute;
+    top: 170px;
+    font-size: 14px;
+}
+
+.redes-socais {
+    background-color: rgb(182, 165, 12);
+    width: 30px;
+    height: 420px;
+    position: absolute;
+    right: 0;    
+}
+
+.redes-socais img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 125px;
+    margin: 25px 0 0 3px;
+}
+
+.foto img {
+    background-color: white;
+    width: 200px;
+    height: 210px;
+    border-right: 3px solid rgb(255, 255, 255);
+    position: absolute;
+    margin: 2px;
+    left: 1150px;
+    bottom: 585px;
+    
+}
+
+.frase {      
+    width: 1000px;
+    height: 420px;
+    position: absolute;
+    top: 520px; 
+    text-align: center;
+    font-size: 18px; 
+}
+
+/*------Experiências------*/
+
+.tag-esquerda-exp {
+    background-color: crimson;
+    width: 150px;
+    height: 7px;
+    position: absolute;
+    top: 800px;
+}
+
+.tag-direita-exp{
+    background-color: crimson;
+    width: 730px;
+    height: 7px;
+    position: absolute;
+    top: 800px;
+    left: 768px; 
+}
+
+.subtitulo {
+    position: relative;
+    top: 355px;
+    left: 200px; 
+    color: black;
+    font-size: 18px;
+}
+
+.timeline {
+    position: absolute;
+    margin: 70px auto;
+    padding: 400px 0;
+    width: 1000px; 
+    left: 25%;   
+    z-index: 0;
+}
+
+.timeline:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 55%;
+    background: #c5c5c5;
+    z-index: 1;
+}
+
+.timeline ul {
+    margin: 0;
+    padding: 0;
+}
+
+.timeline ul li{
+    list-style: none;
+    line-height: normal;
+    position: relative;
+    width: 50%;
+    padding: 85px 40px;
+    box-sizing: border-box;
+    height: 130px;
+}
+
+.timeline ul li:nth-child(odd) {
+    float: left;    
+    text-align: right;
+    clear: both;
+}
+
+.timeline ul li:nth-child(even) {
+    float: right;    
+    text-align: left;
+    clear: both;
+}
+.content {
+    padding-bottom: 20px;    
+}
+
+.timeline ul li:nth-child(odd):before {
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: 496px;
+    width: 10px;
+    height: 10px;
+    background: rgba(233,33,99,1);
+    border-radius: 2px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(233,33,99,0.2);
+    z-index: 2;
+}
+
+.timeline ul li:nth-child(even):before {
+    content: '';
+    position: absolute;
+    top: 24px;
+    right: 495px;
+    width: 10px;
+    height: 10px;
+    background: rgba(233,33,99,1);
+    border-radius: 2px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(233,33,99,0.2);
+    z-index: 2;
+}
+
+.timeline ul li h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: rgba(233,33,99,1);
+    
+}
+
+.timeline ul li p {
+    margin: 10px 0 0;
+    padding: 0; 
+     
+}
+
+.timeline ul li:nth-child(odd) .time {
+    position: relative;
+    bottom: 200px;
+    background: rgba(233,33,99,1);
+    color: #fff;
+    border-radius: 25px;
+    width: 120px;
+    text-align: center;
+    left: 300px;
+    box-shadow: 0 0 0 0.5px  rgba(233,33,99,1);
+
+}
+
+.timeline ul li:nth-child(even) .time {
+    position: relative;
+    bottom: 200px;
+    background: rgba(233,33,99,1);
+    color: #fff;
+    border-radius: 25px;
+    width: 120px;
+    text-align: center;
+    right: 10px;
+    box-shadow: 0 0 0 0.5px  rgba(233,33,99,1);
+    
+
+}
+
+
+
+
+/*-----Acadêmico & Habilidades-----*/
+.academico {       
+    width: 1000px;
+    height: 420px;
+    position: absolute;
+    top: 1800px; 
+}
+
+
+.tag-esquerda-acad {
+    background-color: crimson;
+    width: 150px;
+    height: 7px;
+    position: absolute;
+    top: 380px;
+}
+
+.tag-direita-acad{
+    background-color: crimson;
+    width: 730px;
+    height: 7px;
+    position: absolute;
+    top: 380px;
+    left: 388px; 
+}
+
+
+
+
+/*-----Acadêmico-----*/
+.academico {
+      
+    width: 1000px;
+    height: 420px;
+    position: absolute;
+    top: 755px;
+    text-align: center;
+    
+}
+
+.academico h3{
+    position: absolute;
+    top: 1020px;
+}
+
+.tag-esquerda-acad  {
+    background-color: crimson;
+    width: 150px;
+    height: 7px;
+    position: absolute;
+    top: 1400px;
+}
+
+.tag-direita-acad {
+    background-color: crimson;
+    width: 730px;
+    height: 7px;
+    position: absolute;
+    top: 1400px;
+    left: 388px; 
+}
+
+.academico .skills {
+    color: rgb(29, 28, 28);
+    position: absolute;
+    top: 1470px;
+    left: 615px;
+    text-align: left;    
+}
+
+.skills ul li{
+    list-style: none;    
+    font-size: 14px;
+}
+
+.barra-de-progresso-hard {
+    position: relative;
+    background-color: rgb(182, 165, 12);    
+    height: 7px;
+    left: 150px;
+    bottom: 15px;
+}
+
+.barra-de-progresso-soft {
+    position: relative;
+    background-color: rgb(7, 141, 194);    
+    height: 7px;
+    left: 150px;
+    bottom: 15px;
+}
+
+#html {
+    width: 270px; /*Variante*/
+}
+
+#c-sharp {
+    width: 220px;
+}
+
+#css {
+    width: 160px;
+}
+
+#node-js {
+    width: 140px;
+}
+
+#java-script {
+    width: 90px;
+}
+
+#react {
+    width: 40px;
+}
+
+#react-native {
+    width: 25px;
+}
+
+#mongo-db {
+    width: 60px;
+}
+
+#azure-devops {
+    width: 20px;
+}
+
+#auto-gestao {
+    width: 250px;
+}
+
+#auto-didata {
+    width: 180px;
+}
+
+#criatividade {
+    width: 120px;
+}
+
+#comunicacao {
+    width: 200px;
+}
+
+#empatia {
+    width: 230px;
+}
+
+#trabalho-em-equipe {
+    width: 207px;
+}
+
+
+.curso {    
+    width: 150px;
+    height: 80px;
+    position: relative;
+    top: 1550px;
+    right: 65px;
+    margin: 10px 0 0 75px;
+    padding-left: 300px;
+    font-size: 12px;
+}
+
+.curso img {
+    width: 65px;
+    height: 50px;    
+    position: relative;
+    right: 300px;     
+    bottom: 0; 
+}
+
+.curso p {
+    width: 300px;
+    height: 50px;    
+    position: relative;
+    right: 200px;     
+    bottom: 60px;
+    text-shadow: rgb(29, 28, 28);
+}
+
+
+
+
+/*-----Portifólio-----*/
+.portifolio {
+    /*background-color: rgb(29, 28, 28);*/    
+    width: 1400px;
+    height: 420px;
+    position: absolute;
+    top: 2470px;
+      
+}
+
+.projeto img {
+    width: 350px;
+    height: 480px;
+    position: relative;    
+    float:left;    
+    top: 410px;
+    left: 30px;    
+}
+
+img .saiba-mais {
+    width: 2px;
+    height: 15px;
+}
+
+.tag-esquerda-port {
+    background-color: crimson;
+    width: 150px;
+    height: 7px;
+    position: absolute;
+    top: 380px;
+}
+
+.tag-direita-port{
+    background-color: crimson;
+    width: 730px;
+    height: 7px;
+    position: absolute;
+    top: 380px;
+    left: 388px; 
+}
+
+
+
+
+
+/*-----Desing-----*/
+
+.projeto-design {
+    /*background-color: rgb(29, 28, 28);*/    
+    width: 1118px;
+    height: 420px;
+    position: absolute;
+    top: 3600px;
+    
+}
+
+.prototipo img {
+    position: relative;
+    height: 400px;
+    width: 380px;
+    left: 120px;
+}
+
+.design-detalhe {
+    width: 1118px;
+    height: 420px;
+    position: absolute;
+    top: 290px;
+}
+
+
+
+
+
+/*-----Contato-----*/
+
+.contato {
+    background:  rgb(29, 28, 28);
+    color: white;
+    height: 310px;
+    width: 1118px;
+    text-align: center;    
+    position: absolute;
+    top: 4040px;
+    
+}
+
+.dados-de-contato {
+    width: 400px;
+    margin-top: 35px;
+    
+}
+
+.dados-de-contato input, textarea {
+    box-shadow: 0 3px 8px rgb(134, 105, 8);
+    border-radius: 5px;     
+}
+
+.dados-de-contato input, button {
+    height: 20px;
+    width: 350px;
+    position: relative;
+    left: 560px;
+    float: left;
+    margin: 5px;
+    bottom: 120px;
+}
+
+.contato h3 {
+    color: rgb(134, 105, 8);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.mensagem {
+    position: relative;
+    width: 450px;
+    float: left;
+    left: 120px;
+    top: 25px; 
+     
+}
+
+.dados-de-contato button {
+    position: relative;
+    height: 25px;
+    width: 100px;
+    border-radius: 11px;
+    background: crimson;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px; 
+    font-weight: bold;
+    left: 800px;
+    bottom: 100px; 
+}
+
+
+
+
+/*-----Footer-----*/
+
+.footer {
+    background-color:  rgb(134, 105, 8);
+    height: 55px;
+    width: 1118px; 
+    text-align: center;    
+    position: absolute;
+    top: 4350px;
+}
+
+.footer p {
+    color: rgb(7, 7, 7);
+    margin-top: 15px; 
+    font-size: 11px;
+    line-height: 35%;    
+}
+
+.footer a {
+    text-decoration: none;
+}

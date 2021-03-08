@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    /*background-color: rgb(12, 11, 11);*/
+    
+}
+
+.paginaI-inteira {       
+    width: 1300px;
+    height: 1700px;    
+    background-color: rgb(253, 253, 255);
+    text-align: center;
+     
+}
+
+
+
+/*-----cabecalho do site-----*/
+
+.cabecalho {
+    background-color:rgb(253, 253, 255);
+    width: 1000px;
+    height: 420px;
+}
+
+
+.menu {    
+    width: 700px;
+    height: 35px;
+    position: absolute;
+    left: 720px;
+    padding-top: 12px;
+}
+
+.menu a {  
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: crimson;
+}
+
+.descricao-projeto {
+    position: relative;
+    width: 700px;
+    margin: 10px;
+    text-align: center;
+    bottom: 230px;
+    left: 600px;
+}
+
+.projeto img {
+    position: relative;
+    width: 1200px;
+    height: 1500px;
+    bottom: 120px;
+    left: 350px;
+}
+
+
+
+/*-----Contato-----*/
+
+.contato {
+    background:  rgb(29, 28, 28);
+    color: white;
+    height: 310px;
+    width: 1118px;
+    text-align: center;    
+    position: absolute;
+    top: 2050px;
+    left: 375px;
+    
+    
+}
+
+.dados-de-contato {
+    width: 400px;
+    margin-top: 35px;
+    
+}
+
+.dados-de-contato input, textarea {
+    box-shadow: 0 3px 8px rgb(134, 105, 8);
+    border-radius: 5px;     
+}
+
+.dados-de-contato input, button {
+    height: 20px;
+    width: 350px;
+    position: relative;
+    left: 560px;
+    float: left;
+    margin: 5px;
+    bottom: 120px;
+}
+
+.contato h3 {
+    color: rgb(134, 105, 8);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.mensagem {
+    position: relative;
+    width: 450px;
+    float: left;
+    left: 120px;
+    top: 25px; 
+    
+     
+}
+
+.dados-de-contato button {
+    position: relative;
+    height: 25px;
+    width: 100px;
+    border-radius: 11px;
+    background: crimson;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px; 
+    font-weight: bold;
+    left: 800px;
+    bottom: 100px; 
+}
+
+/*-----Footer-----*/
+
+.footer {
+    background-color:  rgb(134, 105, 8);
+    height: 55px;
+    width: 1118px; 
+    text-align: center;    
+    position: absolute;
+    top: 2360px;
+    left: 375px;
+}
+
+.footer p {
+    color: rgb(7, 7, 7);
+    margin-top: 15px; 
+    font-size: 11px;
+    line-height: 35%;    
+}
+
+.footer a {
+    text-decoration: none;
+}
